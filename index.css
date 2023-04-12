@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 1920px;
+  min-height: 1080px;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 107px;
+  background-color: #3d95e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 0 80px 0 40px;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+header h1 span {
+  font-weight: 400;
+}
+
+header .schedule__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+header .date__container {
+  background-color: #ffffff;
+  width: 216px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+header .date__container p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+header .schedule__container h3 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/*  Fixtures Section  */
+
+section {
+  display: flex;
+  gap: 25px;
+  padding: 18px 30px;
+}
+
+.fixtures__container {
+  flex: 0.5;
+  /* width: 904px; */
+  height: 948px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 5px 0px 0px;
+}
+
+.fixtures__container .table__header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 7px 35px 0px 30px;
+}
+
+/* Table Header Left Container */
+
+.table__header .left__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.table__header .left__container hr {
+  background-color: #5bffff;
+  width: 266px;
+  height: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3.5px;
+}
+
+.table__header .left__container .logo__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table__header .left__container .logo__container img {
+  width: 54px;
+  height: 47px;
+}
+
+.table__header .left__container .logo__container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__header .left__container .logo__container div h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.table__header .left__container div h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Table Body */
+
+.fixtures__container .fixture {
+  padding: 16px 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.5px solid #828282;
+}
+.fixtures__container .fixture1 {
+  margin-top: -2px;
+}
+
+.fixtures__container .fixture .first__container {
+  flex: 0.3;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fixtures__container .fixture .first__container h1 {
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #062cb3;
+}
+.fixtures__container .fixture .second__container {
+  flex: 0.3;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fixtures__container .fixture .second__container h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+.fixtures__container .fixture .third__container {
+  flex: 0.3;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixtures__container .fixture .third__container div {
+  display: grid;
+  place-items: center;
+  width: 86px;
+  height: 46px;
+
+  background: #f9f9f9;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+}
+
+.fixtures__container .fixture .third__container div h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+.fixtures__container .fixture .third__container h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+.fixtures__container .fixture .fourth__container {
+  flex: 0.1;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fixtures__container .fixture .fourth__container h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
